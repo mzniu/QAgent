@@ -8,6 +8,7 @@ __pycache__/
 .env
 .env.*
 !.env.example
+.env.local
 
 # IDE & OS
 .idea/
@@ -20,3 +21,7 @@ Thumbs.db
 dist/
 build/
 *.log
+
+# CLI output (repo root)
+/output/
+.tmp/
